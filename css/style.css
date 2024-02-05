@@ -1,0 +1,53 @@
+*{ font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.titulo{
+    display: flex;
+    background-color: blueviolet;
+    font-weight: bolder;
+    justify-content: center;
+    border-radius: 20%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+   
+}
+
+.container-numeros  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-flow:column-reverse
+}
+
+
+
+.uno {
+    display: flex;
+    background-color: rgb(226, 43, 64);
+    width: 100px;
+    height: 100px;
+    flex-wrap: wrap;
+}
+
+.dos {
+    display: flex;
+    background-color: rgb(105, 238, 240);
+    width: 200px;
+    height: 200px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.tres {
+    display: flex;
+    background-color: rgb(127, 248, 135);
+    width: 300px;
+    height: 300px;
+    align-items:flex-end;
+    justify-content:end;
+
+}
